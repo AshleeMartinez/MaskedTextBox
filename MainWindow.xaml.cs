@@ -29,5 +29,19 @@ namespace WPF_Masked
         {
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string NombreCompleto = NombreCompletoMaskedTextBox.Text;
+            string TarjetaDeCredito = TarjetaDeCreditoMaskedTextBox.Text;
+            string Fecha = FechaMaskedTextBox.Text;
+            string Telefono = TelefonoMaskedTextBox.Text;
+            string IP = IpMaskedTextBox.Text;
+
+            MessageBox.Show($"El nombre completo ingresado es {NombreCompleto}, Tarjeta de Crédito: {TarjetaDeCredito}, " +
+                $"Fecha: {Fecha}, Telefono{Telefono}, IP {IP}", "Información Proporcionada", MessageBoxButton.OK, MessageBoxImage.Information);
+
+
+        }
     }
 }

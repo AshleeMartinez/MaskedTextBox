@@ -15,12 +15,13 @@
         <Label Content="Numero de telefono: " HorizontalAlignment="Left" Margin="193,264,0,0" VerticalAlignment="Top"/>
         <xctk:MaskedTextBox Name="IpMaskedTextBox" Mask="990.990.990.990" Width="200" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="317,319,0,0"/>
         <Label Content="Dirección/IP" HorizontalAlignment="Left" Margin="238,326,0,0" VerticalAlignment="Top"/>
-        <xctk:MaskedTextBox Name="CreditCardMaskedTextBox" Mask="0000-0000-0000-0000" Width="200" Height="41" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="317,132,0,0"/>
+        <xctk:MaskedTextBox x:Name="TarjetaDeCreditoMaskedTextBox" Mask="0000-0000-0000-0000" Width="200" Height="41" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="317,132,0,0"/>
         <Label Content="Tarjeta de Credito: " HorizontalAlignment="Left" Margin="208,138,0,0" VerticalAlignment="Top"/>
         <Label Content="Ejemplos de MaskedTextBox " HorizontalAlignment="Center" Margin="0,44,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="14"/>
-        <Button Content="Cerrar" HorizontalAlignment="Left" Margin="317,449,0,0" VerticalAlignment="Top" Width="198" Height="34" Click="Button_Click"/>
+        <Button Content="Cerrar" HorizontalAlignment="Left" Margin="317,498,0,0" VerticalAlignment="Top" Width="198" Height="34" Click="Button_Click"/>
         <xctk:MaskedTextBox Name="NombreCompletoMaskedTextBox" Mask="LLLLLLLLLLLLLLLLLLLL" Width="300" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="319,90,0,0" />
         <Label Content="Nombre y Apellidos" HorizontalAlignment="Left" Margin="193,90,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnRegistrar" Content="Registrar" HorizontalAlignment="Left" Margin="317,433,0,0" VerticalAlignment="Top" Width="198" Height="44" Click="Button_Click_1"/>
 
 
 
